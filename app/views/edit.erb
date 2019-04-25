@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Edit your Article</title>
+</head>
+
+<body>
+  <form method="POST" action="/articles/:id">
+    <p></p>
+    <input id="hidden" type="hidden" name="_method" value="PATCH">
+    <p>Title <input type="text" name="title"></p>
+    <p>Content <input type="text" name="content"></p>
+    <input type="submit">
+  </form>
+</body>
+</html>
